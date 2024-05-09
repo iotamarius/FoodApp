@@ -1,0 +1,25 @@
+.Header .nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.Header .nav img {
+    width: auto;
+    height: 60px;
+}
+
+.Header .nav ul {
+    margin-top: 10px;
+}
+
+.Header .nav ul a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .Header .nav img {
+      height: 45px;
+    }
+}

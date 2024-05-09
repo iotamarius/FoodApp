@@ -1,0 +1,44 @@
+:root {
+	--text-primary: #19536e;
+	--text-secondary: #f4b44c;
+	--text-dark: #113a4d;
+	--text-light: #eaeaea;
+  
+	--bg-primary: #19536e;
+	--bg-secondary: #dfedf5;
+	--bg-dark:  #113a4d;
+	;
+  }
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: black;
+	background-color: white;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+
+
+main {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+header,
+footer {
+	background-color: var(--bg-primary);
+  	padding: 5px;
+}
+
+header a,
+footer a{
+  color: var(--text-secondary);
+}
+
