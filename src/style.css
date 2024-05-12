@@ -63,7 +63,7 @@ footer a{
 	color: var(--text-primary);
 }
 
-.container h1,.container h2{
+.container h1,.container h2, .container h4{
 	color: var(--text-primary);
 }
 

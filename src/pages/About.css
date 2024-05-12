@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.about h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    padding-top: 20px;
+}
+
+.about-logo{
+    height: 50px;
+    width: auto;
+}
