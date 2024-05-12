@@ -9,8 +9,6 @@ export function useFetch(url) {
     .then((response) => response.json())
     .then((json) => {
         setData(json.meals)
-        // console.log(data)
-
     });
   }, [url]); // pentru ca url este un prop .. il punem in array-ul de dependinte pentru a nu avea un request la infinit
   

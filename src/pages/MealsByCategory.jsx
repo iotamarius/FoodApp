@@ -12,7 +12,6 @@ export function MealsByCategory() {
   const endpoint = getMealsByCategoryEndpoint(categoryId);
   const rawData = useFetch(endpoint);
   const adaptedData = getAdaptedMeal(rawData);
-  console.log(adaptedData);
 
   return (
     <Layout>

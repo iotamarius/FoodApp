@@ -1,7 +1,7 @@
 // aici vom prelucra datele primite de la APi si vom afisa doar elementele care ne intereseaza
 
 export function getAdaptedMeal(apiResponse) {
-  // console.log (apiResponse)
+
   if (!apiResponse) {
     return [];
   }

@@ -6,7 +6,6 @@ import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export function MealCardList(props) {
-  console.log(props.props);
   const mealList = props.props;
 
   return (
@@ -33,39 +32,4 @@ export function MealCardList(props) {
       </Row>
     </Container>
   );
-}
-
-// const cardList = props.props;
-
-// return (
-//   <Container>
-//     <Row>
-//       {cardList.map((cat) => {
-//         return (
-//           <Col xs={12} md={6} lg={4} className="mb-4" key={cat.id}>
-//             <CatCard
-//               id={cat.id}
-//               title={cat.title}
-//               thumbnail={cat.thumbnail}
-//               category={cat.escription}
-//             />
-//           </Col>
-//         );
-//       })}
-//     </Row>
-//   </Container>
-
-{
-  /* <Row>
-{props.map((meal) => {
-  <Col>
-    <MealCard
-      id={meal.id}
-      thumbnail={meal.thumbnail}
-      title={meal.title}
-      category={meal.category}
-    />
-  </Col>;
-})}
-</Row> */
 }

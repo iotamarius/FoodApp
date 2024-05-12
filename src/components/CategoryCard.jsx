@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 import { Link } from "react-router-dom";
 
-export function CatCard(props) {
+export function CategoryCard(props) {
   const { id, title, thumbnail} = props;
 
   return (

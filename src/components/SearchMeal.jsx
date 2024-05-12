@@ -14,9 +14,9 @@ export function SearchMeal() {
   const adaptedSearchMeal = getAdaptedMeal(searchData);
 
   return (
-    <Container className="mt-2 mb-2">
+    <Container className="mt-2 mb-5">
       <Form>
-        <h2>What do you whant to eat? :)</h2>
+        <h2>What do you want to eat?</h2>
         <Form.Group controlId="meal-search">
           <Form.Control
             placeholder="Search for a meal"
@@ -26,12 +26,7 @@ export function SearchMeal() {
           />
         </Form.Group>
       </Form>
-      {query ? (
-          
-          <MealCard props={adaptedSearchMeal} />
-      ) : (
-        <></>
-      )}
+      {query ? <MealCard props={adaptedSearchMeal} /> : <></>}
     </Container>
   );
 }

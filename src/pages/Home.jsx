@@ -8,7 +8,6 @@ export function Home() {
     <>
       {/* Instantiem Layout, dându-i copii. */}
       <Layout>
-        <h1>Home</h1>
         <SearchMeal />
         <RandomMealsList numberOfCards={6} />
       </Layout>

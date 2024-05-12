@@ -1,12 +1,13 @@
 :root {
-	--text-primary: #19536e;
+	--text-primary: #744607;
 	--text-secondary: #f4b44c;
 	--text-dark: #113a4d;
 	--text-light: #eaeaea;
   
-	--bg-primary: #19536e;
+	--bg-primary: #a56409;
 	--bg-secondary: #dfedf5;
 	--bg-dark:  #113a4d;
+	--bg-light: #f7ead6;
 	;
   }
 * {
@@ -17,7 +18,7 @@ body {
 	margin: 0;
 	font-family: system-ui, sans-serif;
 	color: black;
-	background-color: white;
+	background-color: var(--bg-light) !important;
 }
 
 h1 {
@@ -40,5 +41,34 @@ footer {
 header a,
 footer a{
   color: var(--text-secondary);
+} 
+
+.Layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	
 }
 
+.category-card a{
+	text-decoration: none;
+	color: var(--text-secondary);
+}
+
+.meal-card a{
+	text-decoration: none;
+	color: var(--text-secondary);
+}
+.meal-card .card-body p{
+	color: var(--text-primary);
+}
+
+.container h1,.container h2{
+	color: var(--text-primary);
+}
+
+.container a{
+	color: var(--text-secondary);
+	text-align: center; 
+	text-decoration: none;
+}
