@@ -1,4 +1,4 @@
-# itschool-proiect-final-template
+# itschool-proiect-final
 
 EatBread! is a Web Aplication that was build in 2024 as the final project for graduating the WebDevelopment course from ItSchool.
 
