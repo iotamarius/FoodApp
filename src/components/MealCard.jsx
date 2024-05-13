@@ -15,7 +15,6 @@ export function MealCard(props) {
           <Card.Img src={meal.thumbnail} variant="top" />
           <Card.Body>
             <Card.Title>{meal.title}</Card.Title>
-            {/* TODO adauga un link pe categorie pentru a deschide toata categoria */}
             <Card.Text>Category: {meal.category}</Card.Text>
           </Card.Body>
         </Link>
