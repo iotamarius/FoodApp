@@ -8,12 +8,6 @@ export function searchRecipesEndpoint(query) {
   return apiUrl;
 }
 
-// export function getIngredientsListEndpoint(query) {
-//   const apiUrl = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
-//   const url = apiUrl + query;
-//   return url;
-// }
-
 export function randomMealEndpoint() {
   const apiUrl = "https://www.themealdb.com/api/json/v1/1/random.php";
   return apiUrl;
