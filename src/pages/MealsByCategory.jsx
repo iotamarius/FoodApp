@@ -1,5 +1,4 @@
 import React from "react";
-import { MealsByCategoryComponent } from "../components/MealsByCategoryComponent";
 import { Layout } from "../components/Layout";
 import { useParams } from "react-router-dom";
 import { getMealsByCategoryEndpoint } from "../api/endpoints";
